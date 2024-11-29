@@ -32,14 +32,14 @@ enemigo_x = []
 enemigo_y = []
 enemigo_x_cambio = []
 enemigo_y_cambio = []
-cantidad_enemigos = 8
+cantidad_enemigos = 6
 
 for e in range(cantidad_enemigos):
     img_enemigo.append(pygame.image.load("enemigo.png"))
     enemigo_x.append(random.randint(0, 736))
     enemigo_y.append(random.randint(50, 200))
-    enemigo_x_cambio.append(0.5)
-    enemigo_y_cambio.append(50)
+    enemigo_x_cambio.append(1)
+    enemigo_y_cambio.append(20)
 
 # variables de la bala
 img_bala = pygame.image.load("bala.png")
